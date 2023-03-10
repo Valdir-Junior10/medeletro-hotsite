@@ -12,7 +12,11 @@
 .main-header > .container {
   width: 100%;
   padding: 0 15px;
-  // box-sizing: border-box;
+}
+
+.sticky-header > .container {
+  width: 100%;
+  padding: 0 15px;
 }
 
 .wrapp-header {
@@ -28,20 +32,13 @@
   font-family: Roboto;
 }
 
-.fa.fa-phone {
-  display: inline-block;
-  width: 18px;
-  height: 14px;
-  border: 1px solid red;
-}
-
-.fa.fa-search {
-  border: 1px solid red !important;
-}
-
 .site-logo {
   width: 20%;
   min-width: 280px;
+
+  @media (max-width: 990px) {
+    min-width: initial;
+  }
 
   img {
     @media (max-width: 990px) {
@@ -52,6 +49,10 @@
 
 .right-column {
   width: 40%;
+}
+
+.sticky-header .right-column {
+  width: 250px;
 }
 
 .right-column .wishlist-info-widget,
@@ -73,6 +74,32 @@
 .main-nav .menu > li > a:focus,
 .main-nav .menu > li > a:hover {
   color: #b57b00;
+}
+
+.mobile-nav {
+  a {
+    text-decoration: none;
+  }
+}
+
+.mobile-nav ul li.current-menu-item > a {
+  color: #b57b00;
+}
+
+ion-icon[name='search-outline'] {
+  width: 30px;
+  height: 30px;
+}
+
+.phone-icon-paragraph {
+  display: flex;
+  align-items: center;
+}
+
+ion-icon[name='call-outline'] {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
 }
 
 // fim ajuste menu
