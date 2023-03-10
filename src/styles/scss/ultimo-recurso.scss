@@ -17,6 +17,10 @@
 
 .wrapp-header {
   min-height: 95px;
+
+  @media (max-width: 990px) {
+    min-height: initial;
+  }
 }
 
 .widgetarea-head {
