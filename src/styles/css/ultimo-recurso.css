@@ -2,6 +2,75 @@
   background: #000;
 }
 
+.main-header {
+  margin-bottom: 40px;
+}
+
+.main-header > .container {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.wrapp-header {
+  min-height: 95px;
+}
+@media (max-width: 990px) {
+  .wrapp-header {
+    min-height: initial;
+  }
+}
+
+.widgetarea-head {
+  width: 40%;
+  font-family: Roboto;
+}
+
+.fa.fa-phone {
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  border: 1px solid red;
+}
+
+.fa.fa-search {
+  border: 1px solid red !important;
+}
+
+.site-logo {
+  width: 20%;
+  min-width: 280px;
+}
+@media (max-width: 990px) {
+  .site-logo img {
+    max-height: 60px;
+  }
+}
+
+.right-column {
+  width: 40%;
+}
+
+.right-column .wishlist-info-widget,
+.right-column .shopping-cart {
+  display: none;
+}
+
+.main-nav .menu > li > a {
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.main-nav .menu > li.current-menu-item > a {
+  color: #b57b00;
+}
+
+.main-nav .menu > li > a:focus,
+.main-nav .menu > li > a:hover {
+  color: #b57b00;
+}
+
 .padding-top {
   padding-top: 8px;
 }
