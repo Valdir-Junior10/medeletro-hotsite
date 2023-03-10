@@ -9,12 +9,12 @@
   margin-bottom: 40px;
 }
 
-.main-header > .container {
+.main-header>.container {
   width: 100%;
   padding: 0 15px;
 }
 
-.sticky-header > .container {
+.sticky-header>.container {
   width: 100%;
   padding: 0 15px;
 }
@@ -60,19 +60,19 @@
   display: none;
 }
 
-.main-nav .menu > li > a {
+.main-nav .menu>li>a {
   font-family: Roboto;
   font-weight: normal;
   font-style: normal;
   font-size: 13px;
 }
 
-.main-nav .menu > li.current-menu-item > a {
+.main-nav .menu>li.current-menu-item>a {
   color: #b57b00;
 }
 
-.main-nav .menu > li > a:focus,
-.main-nav .menu > li > a:hover {
+.main-nav .menu>li>a:focus,
+.main-nav .menu>li>a:hover {
   color: #b57b00;
 }
 
@@ -82,7 +82,7 @@
   }
 }
 
-.mobile-nav ul li.current-menu-item > a {
+.mobile-nav ul li.current-menu-item>a {
   color: #b57b00;
 }
 
@@ -127,10 +127,7 @@ ion-icon[name='call-outline'] {
   text-decoration: none;
 }
 
-.footer-container.color-scheme-light
-  .main-footer
-  + .copyrights-wrapper
-  .min-footer {
+.footer-container.color-scheme-light .main-footer+.copyrights-wrapper .min-footer {
   border-top: none !important;
 }
 
@@ -144,4 +141,8 @@ ion-icon[name='call-outline'] {
 
 #section__infosProduto p.small {
   font-size: 14px !important;
+}
+
+.medeletro-pagina section#section__infosProduto h2 {
+  text-transform: initial;
 }

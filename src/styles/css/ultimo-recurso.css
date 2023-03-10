@@ -136,3 +136,7 @@ ion-icon[name=call-outline] {
 #section__infosProduto p.small {
   font-size: 14px !important;
 }
+
+.medeletro-pagina section#section__infosProduto h2 {
+  text-transform: initial;
+}
