@@ -1019,10 +1019,6 @@ section#section__valores h1 {
   display: none;
 }
 
-.medeletro-pagina section#section__informacoesTecnicas h1 {
-  margin-top: -35px !important;
-}
-
 @media screen and (max-width: 991px) {
   .desktop {
     display: none !important;
