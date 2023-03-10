@@ -14594,7 +14594,7 @@ form.has-categories-dropdown input[type=text] {
   background: -o-linear-gradient(top, transparent 5%, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0.7) 100%);
   background: -ms-linear-gradient(top, transparent 5%, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0.7) 100%);
   background: linear-gradient(to bottom, transparent 5%, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0.7) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00000000", endColorstr="#b3000000", GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#b3000000", GradientType=0);
 }
 
 .blog-design-mask.has-post-thumbnail:not(.format-quote) h3.entry-title > a {
