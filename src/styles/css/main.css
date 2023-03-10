@@ -455,6 +455,7 @@ img.icone__calendario {
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
+  justify-content: center;
 }
 
 .medeletro-pagina section#section__infosProduto .box__infosProduto .icone {
@@ -884,7 +885,7 @@ section#section__valores h1 {
 .medeletro-pagina .box-container .price__item {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   flex: 0 0 310px;
   position: relative;
   width: 100%;
@@ -1020,10 +1021,6 @@ section#section__valores h1 {
 
 .mobile {
   display: none;
-}
-
-.medeletro-pagina section#section__informacoesTecnicas h1 {
-  margin-top: -35px !important;
 }
 
 @media screen and (max-width: 991px) {
