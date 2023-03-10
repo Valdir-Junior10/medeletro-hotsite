@@ -1,0 +1,19 @@
+{
+  "name": "hotsite-mederi",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "sass --no-source-map src/styles/scss:src/styles/css --watch"
+  },
+  "dependencies": {
+    "@ionic/core": "git+https://github.com/MEDGRUPOGIT/med-components.git#cb9bf0597c5e322fefba02b2ab0e495a44041e92",
+    "gsap": "^3.11.3"
+  },
+  "devDependencies": {
+    "sass": "^1.56.1",
+    "stylelint": "^14.15.0",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^5.0.0"
+  }
+}
