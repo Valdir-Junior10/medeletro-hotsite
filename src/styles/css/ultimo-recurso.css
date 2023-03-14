@@ -83,8 +83,8 @@
 }
 
 ion-icon[name=search-outline] {
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 24px;
 }
 
 .phone-icon-paragraph {
@@ -92,10 +92,11 @@ ion-icon[name=search-outline] {
   align-items: center;
 }
 
-ion-icon[name=call-outline] {
+ion-icon[name=call] {
   width: 18px;
-  height: 18px;
-  margin-right: 8px;
+  height: 14px;
+  margin-right: 3px;
+  color: #b57b00;
 }
 
 .padding-top {
